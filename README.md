@@ -1,16 +1,12 @@
-# Acoustic_Indices
-
-Acoustic_Indices is a Python library to extract global acoustic indices from an audio file for use as a biodiversity proxy, within the framework of Ecoacoustics.
-
-
-## Prerequisites
+# Prerequisites
 
  * [Numpy](http://www.numpy.org/)
  * [Scipy](http://www.scipy.org/)
  * [Matlplotlib](http://matplotlib.org/) (for graphing)
  * [PyYAML](http://pyyaml.org/wiki/PyYAMLDocumentation) (to read configuration file)
 
-## Features and indices
+
+# Features and indices
 
 * Read WAV files (using scipy)
 * Features extraction from Soundscape Ecology
@@ -34,11 +30,12 @@ Acoustic_Indices is a Python library to extract global acoustic indices from an 
     * Zero Crossing Rate
 
 
-## Usage
+# Usage
 
 $python main\_test\_indices.py
 
-## Contributing
+
+# Contributing
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -46,7 +43,8 @@ $python main\_test\_indices.py
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
+
+# History
 
 Versions:
 
@@ -56,8 +54,7 @@ Versions:
 * 0.1: First commit
 
 
-
-## Credits
+# Credits
 
 The following indices are based on the following papers and inspired in part by the R packages [seewave] (https://cran.r-project.org/package=seewave) and [soundecology] (https://cran.r-project.org/package=soundecology)  
 * Acoustic Complexity Index - Pieretti et al. (2011)
@@ -82,7 +79,3 @@ Villanueva-Rivera, L. J., B. C. Pijanowski, J. Doucette, and B. Pekin. 2011. A p
 
 
 This research was generously funded by Leverhulme Research Project Grant RPG-2014-403
-
-## License
-
-GPL V 3 - see [LICENSE.txt](https://github.com/patriceguyot/Acoustic_Indices/blob/master/LICENSE.txt) for more info
